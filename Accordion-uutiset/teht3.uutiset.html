@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Tässä kopioitu omaa vanhaa tehtävää toiselta kurssilta.
+-->
+<html>
+    <head>
+        <title>Uutiset accordion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+        <!-- uutiset Ylen sivuilta 30.7.2018 https://yle.fi/uutiset/3-10328580 -->
+        <div id="accordion">
+            <h3>Pankkijärjestelmät menivät sunnuntaina kyykkyyn tavalla, jonka ei pitäisi olla mahdollista</h3>
+        <div>
+    <p>
+    Sähkönsyöttö teleyhtiö Elisan konesaleihin katkesi eilen puoliltapäivin. Energiayhtiö Fortumin sähkönjakelun häiriö iski ensin maksunvälittäjäpalvelu Netsiin ja sitten useiden pankkien järjestelmiin.
+Elisan konesaleissa on eri palveluntoimittajia, ja ne tuottavat palveluja eteenpäin. Palvelunhallintajohtaja Markus Kinnunen kertoo, että katkeamattoman sähkön tuotantojärjestelmä petti, ja häiriö kesti miltei kolme tuntia.
+Elisa ja Fortum tekevät nyt täyttä häkää juurisyyselvitystä, jonka jälkeen vuorossa ovat korjaavat toimet.
+– Katkeamattoman sähkön tuotantojärjestelmä meni vikatilaan tuntemattomasta syystä, ja laitteisto ajoi itsensä kokonaan alas.
+Kinnusen mukaan tämä on hyvin poikkeuksellista, eikä hän muista kuin yhden tapauksen viime vuodelta.
+– Näin ei saisi käydä missään tapauksessa. Sitä varten katkeamattoman sähkön tuotantojärjestelmä on olemassa. Jos valtakunnanverkossa olisi joitain katkoksia, tämän laitteiston pitäisi estää verkon katkoksen näkymisen konesaliverkon palveluissa. Valtakunnanverkossa ei ongelmaa sunnuntaina ollut.
+Vioittunut järjestelmän osa on nyt poissa käytöstä, kunnes juurisyy on korjattu.
+Pankit ovat alati varuillaan
+    </p>
+  </div>
+  <h3>Maakunta-sote tässä ja nyt: Lue oikeustieteen professorin 7 vastausta, ja olet taas kartalla</h3>
+  <div>
+    <p>
+Eduskunnan sosiaali- ja terveysvaliokunta (StV) valmistelee kuumeisesti mietintöään hallituksen esittämästä maakunta- ja sote-uudistuksesta eli maku-sotesta.
+Urakka on historiallisen suuri, ja aikataulupaineet ovat ankarat. Jos ja kun StV:n mietintö valmistuu, se menee – vielä ainakin kerran – perustuslakivaliokunnan (PeV) syyniin.
+Tässä maakunta- ja sote-uudistus pähkinäkuoressa. Yle Uutisten tenttipenkissä on oikeustieteen professori Pauli Rautiainen Itä-Suomen yliopistosta.
+1 §. Mikä on maakunta- ja sote-uudistuksen perusidea?
+    </p>
+  </div>
+  <h3>Muhiiko hallituksessa uusi alkoholikiista? </h3>
+  <div>
+    <p>
+    Uudesta alkoholilaista päätettiin viime joulukuussa, mutta vääntö alkoholin myynnistä ja sen suitsimisesta ei suinkaan ole ohitse.
+Seuraava poliittinen kiista saattaa kehkeytyä alkusyksystä alkoholin etämyynnistä. Tuore laki jäi etämyynnin osalta tarkoituksella epäselväksi, sillä hallituspuolueet olivat keskenään erimielisiä asiasta.
+Sosiaali- ja terveysministeriö (STM) yritti vastata epäselvyyteen huhtikuussa. Ministeriön asettama työryhmä esitti tuolloin (siirryt toiseen palveluun), että yli 5,5-prosenttisten alkoholijuomien etämyynti kiellettäisiin selkeästi laissa.
+Ministeriöstä on kuitenkin toimitettu EU-komissiolle heinäkuussa entistä tiukempi lakiluonnos (siirryt toiseen palveluun). Siinä etämyynti kiellettäisiin jopa yli 2,8-prosenttisilta juomilta.
+Mikäli luonnos muuttuisi laiksi, voisi käytännössä vain ykkösolutta ostaa etämyynnistä. Muu ulkomaan myynti olisi mahdollista Alkon kautta.
+    </p>
+  </div>
+  
+  <h3>Nyt somessa leviää #metwo </h3>
+  <div>
+    <p>
+Saksassa tähtijalkapalloilija Mesut Özilin viimeviikkoinen ero maajoukkueesta rasismin takia on laukaissut maanlaajuisen keskustelun integraatiosta ja maahanmuutosta.
+Nyt kymmenet tuhannet maahanmuuttajataustaiset saksalaiset kertovat sosiaalisessa mediassa arkipäivän rasismista uudella #metwo-tunnisteella.
+Hashtag mukailee maailmanlaajuisen #metoo-kampanjan tunnistetta. Sanalla "two" eli kaksi viitataan siihen, että julkaisujen kirjoittajilla on kaksi tai useampia kulttuuri-identiteettejä.
+    </p>
+  </div>
+</div>   
+        
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="jquery-ui.js" type="text/javascript"></script>
+        <script>
+            $( function() {
+                $( "#accordion" ).accordion();
+            } );
+        </script>   
+    </body>
+</html>
